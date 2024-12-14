@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module</title>
+    <link rel="stylesheet" href="petProject.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <button onclick="knowledgeChecker()" class="back-button">&larr;</button>
+      <h1>QUIZ 1</h1>
+      <form id="quiz-form">
+        <div class="question">
+          <p>1. What does HTML stand for?</p>
+          <label
+            ><input type="radio" name="q1" /> Hyperlinks and Text Markup
+            Language</label
+          ><br />
+          <label
+            ><input type="radio" name="q1" /> Home Tool Markup Language</label
+          ><br />
+          <label
+            ><input type="radio" name="q1" /> Hyper Text Markup Language</label
+          ><br />
+          <label
+            ><input type="radio" name="q1" /> Hyper Text Main Language</label
+          >
+        </div>
+        <div class="question">
+          <p>
+            2. Which HTML element is used to define the most important heading?
+          </p>
+          <label><input type="radio" name="q2" /> &lt;heading&gt;</label><br />
+          <label><input type="radio" name="q2" /> &lt;h1&gt;</label><br />
+          <label><input type="radio" name="q2" /> &lt;h6&gt;</label><br />
+          <label><input type="radio" name="q2" /> &lt;head&gt;</label>
+        </div>
+        <div class="question">
+          <p>3. Which HTML element is used to define a paragraph?</p>
+          <label><input type="radio" name="q3" /> &lt;para&gt;</label><br />
+          <label><input type="radio" name="q3" /> &lt;pg&gt;</label><br />
+          <label><input type="radio" name="q3" /> &lt;p&gt;</label><br />
+          <label><input type="radio" name="q3" /> &lt;paragraph&gt;</label>
+        </div>
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+    </div>
+    <script src="petProject.js"></script>
+  </body>
+</html>
